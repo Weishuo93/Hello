@@ -31,5 +31,36 @@ git reset --hard HEAD^   (HEAD~100)
 git reset --hard [Version number]
 # to get for your new version
 
+***************************************************
+git checkout -- [filename]
+#工作目录的文件改为仓库中的或暂存区的状态
+
+git reset HEAD [filename]
+# 暂存区的修改退回到工作区(撤销add的操作)
+
+git rm [filename]
+# 提交删除文件申请 误删用git checkout 恢复
+
+*******************远程仓库************************
+1.github 添加ssh-key
+
+( ssh-keygen -t rsa -C "youremail@example.com")
+
+2.git remote add origin git@github.com:Weishuo93/Hello.git
+#添加远程仓库
+
+git remote -v  查看远程仓库地址
+
+3.git push -u origin master
+关联本地与远程仓库
+
+4.git push origin master(branchname)
+后续远程提交
+
+
+
+
+
+
 
 

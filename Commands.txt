@@ -9,6 +9,7 @@ git commit -m "instructions"
 
 # is for submit newest change and instructions
 
+**************************************************
 
 git status 
 # is for check the status of your git repo
@@ -16,12 +17,19 @@ git status
 git diff [filename]
 # to see what changed in [filename]
 
+git log 
+# see latest 3 versions
+
+git reflog  
+# to see numbers and operations
+
+**************************************************
+
 git reset --hard HEAD^   (HEAD~100)
 # to get back to your older version
 
 git reset --hard [Version number]
 # to get for your new version
 
-git reflog  
-# to see numbers and operations
+
 

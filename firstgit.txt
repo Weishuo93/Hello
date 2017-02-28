@@ -1,3 +1,5 @@
 This is for learning how to use git
 This is the second line....
 Third line
+
+Now you could see a Command instruction
